@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Touristic Places of Jujuy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin: 0 0 10px;
+      color: #2e7d32;
+    }
+    .card-content p {
+      margin: 0 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Touristic Places of Jujuy</h1>
+    <p>Discover the natural and cultural wonders of Jujuy, Argentina</p>
+  </header>
+  <div class="container">
+    <div class="card">
+      <img src="purmamarca.jpg" alt="Purmamarca">
+      <div class="card-content">
+        <h3>Purmamarca - Hill of Seven Colors</h3>
+        <p><strong>Description:</strong> A stunning hill with multicolored layers of rock, located near the picturesque village of Purmamarca.</p>
+        <p><strong>Location:</strong> Quebrada de Humahuaca</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="salinas_grandes.jpg" alt="Salinas Grandes">
+      <div class="card-content">
+        <h3>Salinas Grandes</h3>
+        <p><strong>Description:</strong> A vast salt flat offering breathtaking landscapes and unique photographic opportunities.</p>
+        <p><strong>Location:</strong> Between Jujuy and Salta provinces</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="hornocal.jpg" alt="Hornocal">
+      <div class="card-content">
+        <h3>Hornocal - Mountain of Fourteen Colors</h3>
+        <p><strong>Description:</strong> A colorful mountain range that reveals vibrant layers of minerals and sediments.</p>
+        <p><strong>Location:</strong> Near Humahuaca</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="catedral_de_jujuy.jpg" alt="Jujuy Cathedral">
+      <div class="card-content">
+        <h3>San Salvador de Jujuy Cathedral</h3>
+        <p><strong>Description:</strong> A beautiful colonial cathedral located in the capital city of Jujuy province.</p>
+        <p><strong>Location:</strong> San Salvador de Jujuy</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="termas_de_reyes.jpg" alt="Termas de Reyes">
+      <div class="card-content">
+        <h3>Termas de Reyes</h3>
+        <p><strong>Description:</strong> Natural hot springs surrounded by mountains, offering relaxation and scenic views.</p>
+        <p><strong>Location:</strong> 19 km from San Salvador de Jujuy</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
